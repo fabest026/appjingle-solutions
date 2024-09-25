@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
-
 import './header.css'
+import appjingle_logo from '../../images/appjingle-logo.png';
 
 const nav__links = [
     {
@@ -59,7 +59,7 @@ const Header = ({ theme, toggleTheme }) => {
             <div className="container">
                 <div className="nav__wrapper">
                     <div className="logo">
-                        <h2>AppJingle Solutions</h2>
+                        <img src={appjingle_logo} alt="appjingle logo" />
                     </div>
 
                     {/* =========== navigation ========== */}
