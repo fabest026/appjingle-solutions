@@ -50,7 +50,7 @@ const footer = () => {
           {/* Location Section */}
           <div className="footer__location">
             <h3 className="location__title">Location</h3>
-            <p>Ward No.4, AppJingle St, Near Hassan Bhatti School, Nankana City, Pakistan</p>
+            <p>AppJingle St, Near Hassan Bhatti School, Nankana Sahib, Punjab, Pakistan</p>
             <p>Email: info@appjingle.com</p>
 
           </div>
