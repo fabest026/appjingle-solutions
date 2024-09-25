@@ -2,6 +2,21 @@
     padding: 60px 0px;
 }
 
+.footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px; /* Move the logo up */
+}
+
+.footer__logo img {
+    width: 200px; /* Keep the logo size */
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+
 .container hr {
     border: 1px solid var(--primary-color);
     margin-bottom: 60px;
@@ -16,14 +31,13 @@
 }
 
 /* Footer Logo */
-.footer__logo {
+/* .footer__logo {
     width: 40%;
-}
+} */
 
-.footer__logo h2 {
+/* .footer__logo h2 {
     color: var(--primary-color);
-}
-
+} */
 
 
 .small_text {

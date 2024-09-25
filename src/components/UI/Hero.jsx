@@ -17,7 +17,7 @@ const Hero = ({ theme }) => {
                     </div>
                     <p className="description">At AppJingle, we use our experience and commitment to provide great service and real value to our clients.</p>
                     <div className="hero__btns">
-                        <button className="primary__btn">Get Started</button>
+                        <button className="primary__btn" onClick={() => window.location.href = "#service"}>Get Started</button>
                         {/* <button className="secondary__btn">Discover More</button> */}
                     </div>
                 </div>

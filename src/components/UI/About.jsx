@@ -8,18 +8,18 @@ const chooseData = [
     {
         icon: 'ri-wifi-line',
         title: 'First working process',
-        desc: 'Our first working process ensures seamless and efficient project execution.'
+        // desc: 'Ensuring seamless project execution.'
     },
     {
         icon: 'ri-team-line',
         title: 'Dedicated team',
-        desc: 'Our dedicated team works with focus and commitment to meet your needs.'
+        // desc: 'Focused and committed to your needs.'
     },
     {
         icon: 'ri-customer-service-2-line',
         title: '24/7 support',
-        desc: 'We provide 24/7 support to assist you whenever you need help.'
-    }
+        // desc: 'Always available to assist you.'
+    }    
 ]
 
 const About = () => {
@@ -43,9 +43,9 @@ const About = () => {
                                             <h4 className="choose__us-title">
                                             {item.title}
                                             </h4>
-                                            <p className="description">
+                                            {/* <p className="description">
                                                 {item.desc}
-                                            </p>
+                                            </p> */}
                                         </div>
                                     </div>
                                 )

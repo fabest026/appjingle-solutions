@@ -1,10 +1,9 @@
 import React from 'react';
-import '../../styles/contact.css'
-
+import '../../styles/contact.css';
 
 const ContactUs = () => {
   return (
-    <div className="contact-us-section">
+    <div className="contact-us-section" id="contact"> {/* Add id here */}
       <div className="contact-us-content">
         <h6 className="subtitle">Contact Us</h6>
         <h2>Let's Talk About Everything!</h2>
